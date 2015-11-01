@@ -1,0 +1,303 @@
+*{margin: 0px; padding: 0px; border: 0;}
+
+
+@font-face {
+ font-family: hakim;
+ src: url("../fonts/hakim.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: TTREVERE;
+ src: url("../fonts/TTREVERE.ttf") /* TTF file for CSS3 browsers */
+}
+
+@font-face {
+ font-family: saiful;
+ src: url("../fonts/saiful.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: saiful;
+ src: url("../fonts/saiful.ttf") /* TTF file for CSS3 browsers */
+}
+
+@font-face {
+ font-family: zakir;
+ src: url("../fonts/zakir.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: zakir;
+ src: url("../fonts/zakir.ttf") /* TTF file for CSS3 browsers */
+}
+
+body{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header{
+    width: 1090px;
+    height: 150px;
+}
+.logo {
+    width: 170px;
+    height: 50px;
+    float: left;
+    margin: 10px 500px;
+    text-align: center;
+    background-image: url("../images/ladis-bg.png");
+}
+
+.logo p{
+    font-family: Franklin Gothic Book;
+    color: #898989;
+    font-size: 15px; 
+    line-height: 10px;
+}
+
+.logo h1{
+    color: #898989;
+    font-size: 50px;
+}
+
+
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: TTREVERE;
+}
+
+p {
+    font-family: Franklin Gothic Book;
+    color: #898989;
+    font-size: 15px;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+    float: left;
+}
+
+a {
+    font-family: Franklin Gothic Book;
+    color: #898989;
+}
+
+img {
+}
+
+.border {
+}
+
+.mainmenu {
+    width: 1090px;
+    height: 40px;
+}
+
+.menu {
+    width: 50%;
+    float: left;
+    display: block;
+    position: relative;
+}
+
+.menu ul li a{
+    padding: 10px;
+    text-decoration: none;
+}
+
+.search {
+    width: 30%;
+    float: right;
+    height: 40px;
+    position: absolute;
+    left: 60%;
+}
+
+.search p{
+    float: left;
+    position: relative;
+}
+
+.search img{
+    position: absolute;
+    left: 60%;
+    bottom: 10px;
+}
+
+.slider {
+    margin-top: 30px;
+    margin-left: 60px;
+    width: 990px;
+    height: 400px;
+    float: left;
+    position: relative;
+    background-color: #848484;
+}
+
+.slider-arraw-left {
+    position: absolute;
+    top: 198px;
+}
+
+.slider-arraw-right {
+     position: absolute;
+     top: 198px;
+    left: 954px;
+}
+
+.slider-bottom {
+    width: 100%;
+    height: 80px;
+    background-color: #CFCFCF;
+    position: absolute;
+    border-bottom: 1px solid #fff;
+    top: 320px;
+    
+}
+
+.shadow {
+    width: 100%;
+    height: 10px;
+    position: relative;
+    top: 393px;
+    background-image: url(../images/shadow.png);
+    background-repeat: no-repeat;
+    opacity: 0.4;
+}
+
+.dot {
+    width: 15%;
+    height: 30px;
+    position: absolute;
+    left: 450px;
+    top: 390px;
+    border-radius: 5px 5px 0 0;
+    background-image: url(../images/slider-arraw-bottom.png);
+    box-shadow: 2px 0px 15px -4px rgba(0, 73, , 0.8), -3px 0px 8px -4px rgba(0, 7, 125, 0.8);
+}
+.dot img{
+    position: absolute;
+    left: 15px;
+    top: 10px;
+}
+.news {
+    float: left;
+    width: 990px;
+    height: 100px;
+    margin-top: 50px;
+    border-radius: 5px;
+    margin-left: 60px;
+    box-shadow: 2px 0px 15px -4px rgba(0, 73, , 0.8), -3px 0px 8px -4px rgba(0, 7, 125, 0.8);
+}
+
+.news h2{
+    padding: 30px;
+    color: #898989;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.content {
+    width: 990px;
+    height: 200px;
+    margin-left: 60px;
+    clear: both;
+}
+
+.content h2{
+    font-family: Franklin Gothic Book;
+    line-height: 150px;
+}
+
+.box {
+    width: 245px;
+    height: 180px;
+    background-color: red;
+    float: left;
+}
+.box img{
+    margin-top: 85px;
+    margin-left: 115px;
+}
+
+.content2{
+    width: 990px;
+    height: 400px;
+    clear: both;
+    margin-top: 60px;
+    margin-left: 60px;
+
+}
+
+
+.peragraph {
+    width: 400px;
+    height: 350px;
+    float: left;
+    margin-left: 60px;
+}
+
+.peragraph h2{
+    line-height: 70px;
+}
+
+.peragraph img{
+    float: left;
+    padding-right: 10px;
+}
+
+.peragraph p{
+    line-height: 20px;
+    font-size: 13px;
+}
+
+.read {
+    float: right;
+    
+}
+
+.blog {
+    width: 100%;
+    height: 100px;
+    float: left;
+}
+
+.top-footer {
+    width: 100%;
+    height: 300px;
+    background-image: url(../images/footer-top-bg.jpg);
+    background-repeat: repeat-x;
+    
+}
+
+.content-footer {
+    width: 330px;
+    height: 200px;
+    float: left;
+}
+.border{opacity: 0.4;}
+.content-footer h2{
+    margin: 20px;
+}
+
+.content-footer p{
+    margin: 20px;
+}
+
+.socila-link {
+ width: 10%;
+    height: 20px;
+    margin-left: 30px;
+}
+
+.footer {
+    width: 100%;
+    height: 60px;
+    
+}
+
+.footer p{
+    float: right;
+}
